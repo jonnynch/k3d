@@ -66,7 +66,7 @@ BACKUP_LOCATION=~/nexus-data/backup
 ```
 sudo mkdir $BACKUP_LOCATION
 sudo chown -R 200 $BACKUP_LOCATION
-sudo tar -C $NEXUS_DATA/blobs -cvf $BACKUP_LOCATION/blobs-`date "+%Y.%m.%d-%H.%M.%S"`.tar .
+sudo tar -C $NEXUS_DATA/blobs --exclude=proxy -cvf $BACKUP_LOCATION/blobs-`date "+%Y.%m.%d-%H.%M.%S"`.tar . 
 sudo tar -C $NEXUS_DATA/keystores -cvf $BACKUP_LOCATION/keystores-node-`date "+%Y.%m.%d-%H.%M.%S"`.tar node
 ```
 
@@ -114,6 +114,7 @@ sudo mv $NEXUS_DATA/keystores/node $NEXUS_DATA/keystores/node-`date "+%Y.%m.%d-%
 sudo tar -xvf $BACKUP_LOCATION/keystores-node-$BACKUP_KEYSTORES_SUFFIX -C $NEXUS_DATA/keystores
 sudo chown -R 200 $NEXUS_DATA/keystores
 ```
+Manual delete of the folders of all proxy repository from UI. because they are not in backup
 
 ## Verify
 ### check log
