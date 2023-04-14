@@ -1,0 +1,29 @@
+replicaCount: 1
+
+image:
+  repository: openzipkin/zipkin
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+nameOverride: "zipkin"
+fullnameOverride: "zipkin"
+
+service:
+  type: ClusterIP
+  port: 9411
+
+ingress:
+  enabled: true
+  className: "nginx"
+  hosts:
+    - host: zipkin.localdev.me
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+resources: 
+  limits:
+    cpu: 1000m
+    memory: 512Mi
+  requests:
+    cpu: 100m
+    memory: 512Mi

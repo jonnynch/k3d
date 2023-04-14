@@ -1,0 +1,16 @@
+[
+    {
+      "json": {
+        "field": "message",
+        "add_to_root": true,
+        "ignore_failure": true
+      }
+    },
+    {
+      "dissect": {
+        "field": "log.file.path",
+        "pattern": "/var/log/containers/%{pod.name}_%{namespace}_%{chart.name}-%{log.file.serial}.log",
+        "ignore_missing": true
+      }
+    }
+  ]

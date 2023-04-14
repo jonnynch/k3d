@@ -1,0 +1,22 @@
+# more info here https://k3d.io/usage/registries/
+# https://rancher.com/docs/k3s/latest/en/installation/private-registry/
+mirrors:
+  "docker.io":
+    endpoint:
+      - https://host.k3d.internal:18443
+  "localdev.me":
+    endpoint:
+      - https://host.k3d.internal:18443
+  "localdev.me:18443":
+    endpoint:
+      - https://host.k3d.internal:18443
+  "docker.elastic.co":
+    endpoint:
+      - https://host.k3d.internal:18443
+  "registry.k8s.io":
+    endpoint:
+      - https://host.k3d.internal:18443
+configs:
+  "host.k3d.internal:18443":
+    tls:
+      insecure_skip_verify: true

@@ -1,0 +1,17 @@
+image:
+  repository: nginx-helloworld
+  pullPolicy: Never
+  tag: "latest"
+nameOverride: "hello-world"
+ingress:
+  enabled: true
+  className: nginx
+  hosts:
+    - host: hello-world.localdev.me
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+autoscaling:
+  enabled: true
+  minReplicas: 1
+  maxReplicas: 2

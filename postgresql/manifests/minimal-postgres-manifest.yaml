@@ -1,0 +1,16 @@
+apiVersion: "acid.zalan.do/v1"
+kind: postgresql
+metadata:
+  name: appdb
+spec:
+  teamId: "appdb"
+  volume:
+    size: 1Gi
+  numberOfInstances: 2
+  preparedDatabases:
+    appdb:
+      defaultUsers: true
+      extensions:
+        pgcrypto: public
+  postgresql:
+    version: "15"

@@ -1,0 +1,29 @@
+{
+    "id": "filebeat-transform",
+    "authorization": {
+      "roles": [
+        "superuser"
+      ]
+    },
+    "version": "8.6.2",
+    "create_time": 1677676463380,
+    "source": {
+      "index": [
+        "filebeat-*"
+      ],
+      "query": {
+        "match_all": {}
+      }
+    },
+    "dest": {
+      "index": "transformed-filebeat",
+      "pipeline": "filebeat"
+    },
+    "latest": {
+      "unique_key": [
+        "@timestamp"
+      ],
+      "sort": "@timestamp"
+    },
+    "settings": {}
+  }
