@@ -1,3 +1,6 @@
+# Overview
+![Overview](https://github.com/jonnynch/k3d/blob/main/k3d.drawio.png?raw=true)
+
 # Installation or upgrade k3d
 ```
 curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash
