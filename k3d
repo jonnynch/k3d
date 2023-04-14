@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T08:01:07.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="42ep38p1Bre05pI7HjdS" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T08:06:40.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="kFNs4kDrdMpI4VzYxzF6" version="21.1.7" type="github">
   <diagram name="Page-1" id="4v9dbrvYBIufnsGDIeBO">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,6 +60,30 @@
             <mxPoint x="232" y="491" as="sourcePoint" />
             <mxPoint x="235" y="298" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-29" value="&lt;div&gt;namespaces usage in the example &lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="10" y="590" width="1200" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-30" value="&lt;div&gt;&lt;b&gt;monitoring&lt;/b&gt;&lt;/div&gt;&lt;div&gt;for prometheus, grafana, zipkin&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="660" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-31" value="&lt;div&gt;&lt;b&gt;ingress-nginx&lt;/b&gt;&lt;/div&gt;&lt;div&gt;for nginx ingress controller&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="660" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-32" value="&lt;div&gt;&lt;b&gt;jenkins&lt;/b&gt;&lt;/div&gt;&lt;div&gt;for jenkins agent to execute&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="660" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-33" value="&lt;div&gt;&lt;b&gt;demo&lt;/b&gt;&lt;/div&gt;&lt;div&gt;for app&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="655" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-34" value="&lt;b&gt;elastic-system&lt;/b&gt;&lt;div&gt;for elastic-search, kibana, filebeat&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="655" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-35" value="&lt;b&gt;postgres-operator&lt;/b&gt;&lt;div&gt;for postgres operator, database can be created in app namespace&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="655" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-36" value="&lt;div&gt;&lt;b&gt;sonarqube&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;for sonarqube to execute, trigger from jenkins-agent&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="655" width="120" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
