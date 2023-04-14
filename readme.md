@@ -81,10 +81,13 @@ Please check [Jenkins](./jenkins/readme.md).
 # setup jenkins-agent on kubernetes/local machine
 Please check [Jenkins Agent](./jenkins-agent/readme.md).
 
-# install  monitoring  (prometheus, grafana, zipkin)
+# Install  monitoring  (prometheus, grafana, zipkin)
 Please check [Monitoring](./monitoring/readme.md).
 
-# terraform
+# Install SonarQube
+Please check [SonarQube](./sonarqube/readme.md).
+
+# Terraform
 Please check [Terraform](./terraform/readme.md).
 
 # PostgreSQL for different namespaces

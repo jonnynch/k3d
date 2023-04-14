@@ -4,3 +4,4 @@
 **/.tls
 **/.docker
 kubeconfig.k3d
+sync.md
