@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T07:44:44.096Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" version="21.1.7" etag="U4UHgHsZp-BL8rkwwOq9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T08:01:07.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="42ep38p1Bre05pI7HjdS" version="21.1.7" type="github">
   <diagram name="Page-1" id="4v9dbrvYBIufnsGDIeBO">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="V3iPdkyibfvumOKmMIL3-20" value="Docker" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="10" width="720" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-22" value="k3d" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="290" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-9" value="Agent 0" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=node" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-10" value="Agent 1" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=node" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-11" value="&lt;div&gt;Agent 2&lt;/div&gt;" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=node" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-12" value="Server 2" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=master" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-13" value="Server 0" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=master" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-15" value="Server 1" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=master" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-16" value="serverlb" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.load_balancer_generic" vertex="1" parent="1">
+          <mxGeometry x="207" y="40" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-17" value="Nexus3" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.repository" vertex="1" parent="1">
+          <mxGeometry x="440" y="118" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-19" value="Jenkins" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/devops/devops.svg;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V3iPdkyibfvumOKmMIL3-21" target="V3iPdkyibfvumOKmMIL3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-21" value="&lt;div&gt;/var/lib/rancher/k3s/storage&lt;/div&gt;&lt;div&gt;different folder for each node&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="1">
+          <mxGeometry x="112.67999999999999" y="390" width="24.64" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V3iPdkyibfvumOKmMIL3-23" target="V3iPdkyibfvumOKmMIL3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-23" value="&lt;div&gt;/mnt/shared&lt;/div&gt;&lt;div&gt;same folder for all nodes&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="1">
+          <mxGeometry x="207" y="480" width="36.97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.406;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="V3iPdkyibfvumOKmMIL3-23" target="V3iPdkyibfvumOKmMIL3-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="470" as="sourcePoint" />
+            <mxPoint x="135" y="298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V3iPdkyibfvumOKmMIL3-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V3iPdkyibfvumOKmMIL3-23" target="V3iPdkyibfvumOKmMIL3-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="232" y="491" as="sourcePoint" />
+            <mxPoint x="235" y="298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
